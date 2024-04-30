@@ -23,6 +23,7 @@ public class BaseTest {
     public static void startBrowser() {
         logger.info("run browser settings ");
         app.init();
+
     }
     @AfterSuite
     public static void tearDown() {
